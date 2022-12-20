@@ -1,10 +1,10 @@
 // Add your answer here
-$(function() {
+$(function(){
   $('.lesson').hover(
-    function() {
+    function(){
       $(this).find('.text-contents').addClass('text-active');
     },
-    function() {
+    function(){
       $(this).find('.text-contents').removeClass('text-active');
     }
   );
